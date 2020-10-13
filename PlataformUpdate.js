@@ -1,3 +1,4 @@
+alert("aaaaaaaaaaaaaaa")
 document.focus()
 
 var isMobile = {
