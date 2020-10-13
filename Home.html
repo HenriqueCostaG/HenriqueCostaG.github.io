@@ -10,7 +10,7 @@
 
 </head>
 
-<body> <!--Corpo do documento, parte visual-->
+<body id = "bd" class = "scrollb"> <!--Corpo do documento, parte visual-->
 <!--Violeta -->
 <header class ="violet">
 </header>
@@ -661,9 +661,30 @@ O jogo foi desenvolvido no formato de texto e possui um enredo simples, basicame
 
 
 <script>/*Erro caso a janela diminua muito*/
+
+window.onload = function(){alert("Se você esta acessando este portifólio com um NOTEBOOK pressione 'S' para ativar a rolagem pelo clique")};
+
+
 var x = window.matchMedia("(max-width: 300px)")
 myFunction(x)
 x.addListener(myFunction)
+
+
+document.addEventListener ('keypress', showScroll)
+
+function showScroll(event){
+var keyName = event.key;
+  if ( keyName == "s"){
+	if (document.getElementById("bd").className == "scrollb"){
+	document.getElementById("bd").classList.remove('scrollb');
+	} else{
+	document.getElementById("bd").classList.add('scrollb');
+	}
+  }
+}
+
+
+
 
 function myFunction(x) {
   if (x.matches) {
