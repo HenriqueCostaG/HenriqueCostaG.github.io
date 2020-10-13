@@ -1,8 +1,3 @@
-window.addEventListener ('keypress', (event) => {
-  const keyName = event.E
-  alert ('keypress event \ n \ n' + 'chave:' + nome da chave);
-});
-
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -28,3 +23,13 @@ var isMobile = {
 if ( isMobile.any() ) {
 	location.replace("https://henriquecostag.github.io/Home.html");
 }
+
+document.addEventListener ('keypress', closeGame)
+
+
+function closeGame(event){
+  var keyName = event.key;
+  if ( keyName == "s"){
+	location.replace("https://henriquecostag.github.io/Home.html");
+  }
+};
