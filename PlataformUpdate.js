@@ -1,5 +1,4 @@
-alert("aaaaaaaaaaaaaaa")
-document.focus()
+document.getElementById("canvas")focus();
 
 var isMobile = {
     Android: function() {
