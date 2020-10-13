@@ -1,4 +1,4 @@
-window.ddEventListener ('keypress', (event) => {
+window.addEventListener ('keypress', (event) => {
   const keyName = event.E
   alert ('keypress event \ n \ n' + 'chave:' + nome da chave);
 });
