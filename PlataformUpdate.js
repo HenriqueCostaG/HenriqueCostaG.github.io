@@ -1,4 +1,5 @@
-document.getElementById("canvas").focus();
+document.addEventListener ('keypress', closeGame)
+
 
 var isMobile = {
     Android: function() {
@@ -27,16 +28,20 @@ if ( isMobile.any() ) {
 	location.replace("https://henriquecostag.github.io/Home.html");
 } else{
 	
-alert("Para andar utilize as setas do teclado. Caso queira ir direto para o portifólio, pressione 'S'");	
+	var r = confirm("Para andar utilize as setas do teclado. Caso queira ir direto para o portifólio, pressione 'S'");
+
+	if (r == true) {
+	  document.getElementById("canvas").focus();
+	} else {
+	  document.getElementById("canvas").focus();
+	}
 
 }
 
-document.addEventListener ('keypress', closeGame)
-
 
 function closeGame(event){
-  var keyName = event.key;
+var keyName = event.key;
   if ( keyName == "s"){
 	location.replace("https://henriquecostag.github.io/Home.html");
   }
-};
+}
