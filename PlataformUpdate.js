@@ -21,6 +21,5 @@ var isMobile = {
 
 
 if ( isMobile.any() ) {
-	
-	
+	location.replace("https://henriquecostag.github.io/Home.html");
 }
