@@ -23,7 +23,12 @@ var isMobile = {
 
 
 if ( isMobile.any() ) {
+	
 	location.replace("https://henriquecostag.github.io/Home.html");
+} else{
+	
+alert("Para andar utilize as setas do teclado. Caso queira ir direto para o portifólio, pressione 'S'");	
+
 }
 
 document.addEventListener ('keypress', closeGame)
