@@ -1,3 +1,8 @@
+window.ddEventListener ('keypress', (event) => {
+  const keyName = event.E
+  alert ('keypress event \ n \ n' + 'chave:' + nome da chave);
+});
+
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
