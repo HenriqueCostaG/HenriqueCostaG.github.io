@@ -1,5 +1,3 @@
-alert("Para andar utilize as setas do teclado.");
-
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
