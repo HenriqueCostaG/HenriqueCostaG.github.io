@@ -1,0 +1,557 @@
+#copyright{
+	color:#b4202a;
+	background-color: #b4202a;
+	margin-left: -1%;
+	width: 200%;
+	position: absolute;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+#copyright:hover{
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+/*Scrollbar*/
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove o espaço do scrollbar */
+    background: transparent;  /* Faz o scrollbar ficar invisivel*/
+}
+
+/*Scrollbar*/
+
+/*Corpo do html*/
+body {
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: black;
+	text-decoration: bold;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 18px;
+
+}
+
+/*Mapa*/
+#ImagemPrincipal{
+margin: -1%;
+}
+
+/*Costumização das fontes*/
+h2, h4{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 0px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4 {
+  font-size: 22px;
+}
+
+
+p, ul {
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+/*Divisorias das inteligencias*/
+
+/*Violet*/
+header.violet{
+margin-left: -1%;
+margin-right: -1%;
+height: 100px;
+background-image:linear-gradient(to bottom ,#4d1f3f 10%, #bc4a9b 90%); /*Escuro,Claro* /*Textos escuros*/
+z-index: 3;
+}
+
+section.violet{
+background-image:linear-gradient(to bottom ,#bc4a9b 97%, #10244d 3%);
+display: block;
+height: 100%;
+margin-left: -1%;
+margin-right: -1%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+h1.violet{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #4d1f3f;
+	
+}
+
+h2.violet, h4.violet{
+color:#ff66d4;
+
+}
+
+article.violet{
+	
+background-color: #ffdbf5;
+height: 100%;
+width:96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.v {
+  color: white;
+  background-color: rgba(77,31,63,0.5);
+}
+
+
+/*Índigo (anil)*/
+
+header.bluedark{
+margin-left: -1%;
+margin-right: -1%;
+height: 100px;
+background-image: linear-gradient(to bottom ,#10244d 10%, #285cc4 90%);
+z-index: 3;
+}
+
+section.bluedark{
+background-image:linear-gradient(to bottom ,#285cc4 97%, #0d374d 3%);/**/
+display: block;
+position: relative;
+height: 100%;
+margin-left: -1%;
+margin-right: -1%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+h1.bluedark{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #10244d;
+	
+}
+
+h2.bluedark, h4.bluedark{
+color:#98b9ff;
+
+}
+
+article.bluedark{
+	
+background-color: #dbe7ff;
+height: 100%;
+width:96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.i{
+  color: white;
+  background-color: rgba(16,36,77,0.5);
+}
+
+
+
+/*Azul*/
+
+header.blue{
+margin-left: -1%;
+margin-right: -1%;
+height: 100px;
+background-image: linear-gradient(to bottom ,#0d374d 10%, #249fde 90%);
+margin-top: -1%;
+z-index: 3;
+}
+
+section.blue{
+background-image:linear-gradient(to bottom ,#249fde 97%, #244d15 3%);/**/
+display: block;
+height: 100%;
+margin-left: -1%;
+margin-right: -1%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+h1.blue{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #0d374d;
+	
+}
+
+h2.blue, h4.blue{
+color:#56b7ea;
+
+}
+
+article.blue{
+	
+background-color: #dbf3ff;
+height: 100%;
+width:96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.b {
+  color: white;
+  background-color: rgba(13,55,77,0.5);
+}
+
+
+/*Verde*/
+
+header.green{
+margin-left: -1%;
+margin-right: -1%;
+height: 100px;
+background-image: linear-gradient(to bottom ,#244d15 10%, #59c135 90%);
+z-index: 3;
+}
+
+section.green{
+background-image:linear-gradient(to bottom ,#59c135 97%, #4d4c15 3%);/**/
+display: block;
+height: 100%;
+margin-left: -1%;
+margin-right: -1%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+h1.green{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #244d15;
+	
+}
+
+h2.green, h4.green{
+color:#71cc50;
+
+}
+
+article.green{
+	
+background-color: #d6ffc2;
+height: 100%;
+width:96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.g {
+  color: white;
+  background-color: rgba(36,77,21,0.5);
+}
+
+
+/*Amarelo*/
+
+header.yellow{
+margin-left: -1%;
+margin-right: -1%;
+height: 100px;
+background-image: linear-gradient(to bottom ,#4d4c15 10%, #f8f644 90%);
+z-index: 3;
+}
+
+section.yellow{
+background-image:linear-gradient(to bottom ,#f8f644 97%, #4d2003 3%);/**/
+display: block;
+height: 100%;
+margin-left: -1%;
+margin-right: -1%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+h1.yellow{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #4d4c15;
+	
+}
+
+h2.yellow, h4.yellow{
+color:#dcda46;
+
+}
+
+article.yellow{
+	
+background-color: #fffedb;
+height: 100%;
+width:96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.y{
+  color: white;
+  background-color: rgba(77,76,21,0.5);
+}
+
+.yellow-padding{
+padding: 0px;
+text-align: center;
+}
+
+.y:hover{
+-webkit-transition: opacity .25s ease-in-out .0s;
+transition: opacity .25s ease-in-out .0s;
+opacity:0;
+}
+
+.y{
+opacity:1;
+}
+
+
+/*Orange*/
+
+header.orange{
+margin-left: -1%;
+margin-right: -1%;
+height: 100px;
+background-image: linear-gradient(to bottom ,#4d2003 10%, #fa6a0a 90%);
+z-index: 3;
+}
+
+section.orange{
+background-image:linear-gradient(to bottom ,#fa6a0a 97%, #4d0e13 3%);/**/
+display: block;
+height: 100%;
+margin-left: -1%;
+margin-right: -1%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+h1.orange{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #4d2003;
+	
+}
+
+h2.orange, h4.orange{
+color:#fd8d45;
+
+}
+
+article.orange{
+	
+background-color: #ffeadb;
+height: 100%;
+width:96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.o{
+  color: white;
+  background-color: rgba(77,32,3,0.5);
+}
+
+
+/*Red*/
+
+header.red{
+margin-left: -1%;
+margin-right: -1%;
+height: 100px;
+background-image: linear-gradient(to bottom ,#4d0e13 10%, #b4202a 90%);
+z-index: 3;
+}
+
+section.red{
+background-color:#b4202a;
+display: block;
+height: 100%;
+margin-left: -1%;
+margin-right: -1%;
+padding-left: 5%;
+padding-right: 5%;
+}
+
+h1.red{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #4d0e13;
+	
+}
+
+h2.red, h4.red{
+color:#fb5663;
+
+}
+
+article.red{
+	
+background-color: #ffdbde;
+height: 100%;
+width:96%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.r {
+  color: white;
+  background-color: rgba(77,14,19,0.5);
+}
+
+/*Ordenar elementos na pagina corretamente*/
+
+    .caixa .preenchida{
+    padding: 32px 0px 0px 0px;
+  }
+  
+  .preenchida {
+    padding: 32px 8px 8px 8px;
+  }
+  
+
+  
+  #highlight {
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+.flexionar {
+  display: flex;
+  margin-top: 1%;
+}
+
+.flexionar.eqsize > * {
+  flex: 1;
+}
+
+.base-padding {
+  padding: 10px;
+}
+
+  .features-row > :first-child, .split-row > :first-child {
+    margin-right: 8px;
+  }
+
+  .features-row > :last-child, .split-row > :last-child {
+    margin-left: 8px;
+  }
+ 
+
+  .feature img {
+	height: 100%;
+	width: 100%;
+  }
+  
+   .feature, #highlight {
+    position: relative;
+  }
+  
+  .titulo{
+	  text-align: center;
+	  width: 100%;
+  }
+  
+/*Conteiner*/
+
+    .feature .dark, #highlight .dark {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+  }
+  
+ 
+  #contact{
+	  width: 40%;
+  }
+  
+     #projects{
+	  width: 40%;
+	  margin-left: 10%;
+  }
+  
+       #dprojects{
+	  width: 50%;
+  }
+  
+  /*Adaptações*/
+  @media (max-width: 1200px) {
+	  
+    .features-row > :first-child {
+      margin-right: 0px;
+    }
+    .features-row > :last-child {
+      margin-left: 0px;
+    }
+	
+  .flexionar.responsive {
+    flex-direction: column;
+  }
+  .flexionar.eqsize.responsive {
+    flex-direction: column;
+  }
+
+  .tabs {
+    overflow: scroll;
+  }
+  
+  
+    .flexionar {
+	  width: 400px;
+	  margin: auto;
+  }
+  
+  .feature{
+	  	  margin-bottom: 10%;
+  }
+  
+  #contact{
+	  width: 50%;
+  }
+ 
+   #projects{
+	  width: 50%;
+	  margin-left: 0%;
+  }
+  
+         #dprojects{
+	  width: 100%;
+  }
+  }
+  
+  @media (max-width: 600px){
+	  .preenchida{
+		  padding:0;
+	  }
+  }
+
+ 
